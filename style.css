@@ -1,0 +1,13 @@
+* {
+   box-sizing: border-box;
+}
+
+.content {
+   max-width: 1920px;
+   min-height: 1080px;
+   margin: auto;
+   cursor: pointer;
+   border: 2px solid black;
+   background: beige;
+   text-align: center
+}
