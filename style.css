@@ -18,7 +18,6 @@ html {
 
 .accordeon-item {
    border-bottom: 2px solid darkgray;
-   padding-top: 2%;
 }
 
 .accordeon-title {
@@ -26,6 +25,9 @@ html {
    cursor: pointer;
    color: blue;
    transition: color .2s ease-out;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
 }
 
 .accordeon-input {
@@ -37,25 +39,30 @@ html {
    display: none;
 }
 
-img {
+.image {
    width: 70%;
 }
 
 h1 {
    font-size: 5vh;
    border-bottom: 2px solid darkgray;
-   padding-bottom: 4%;
+   padding-bottom: 1%;
 }
 
 h2 {
    font-size: 3vh;
 }
 
+.icon {
+   z-index: 1;
+   transform: translateY(127%);
+}
+
 .accordeon-title:hover {
    color: black;
 }
 
-.accordeon-input:hover+.accordeon-image {
+.accordeon-input:checked~.accordeon-image {
    display: block;
 }
 
@@ -75,7 +82,7 @@ h2 {
       padding: 0 20%;
    }
 
-   img {
+   .image {
       width: 70%;
       height: auto;
       margin: auto;
@@ -103,7 +110,7 @@ h2 {
       padding: 0 20%;
    }
 
-   img {
+   .image {
       width: 70%;
       height: auto;
       margin: auto;
