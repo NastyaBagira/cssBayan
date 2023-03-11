@@ -39,9 +39,6 @@ html {
    display: none;
 }
 
-.image {
-   width: 70%;
-}
 
 h1 {
    font-size: 5vh;
@@ -53,10 +50,15 @@ h2 {
    font-size: 3vh;
 }
 
-.icon {
-   z-index: 1;
-   transform: translateY(127%);
+img {
+   width: 70%;
 }
+
+.icon {
+   width: 10%;
+   transform: translateY(60%);
+}
+
 
 .accordeon-title:hover {
    color: black;
@@ -82,11 +84,7 @@ h2 {
       padding: 0 20%;
    }
 
-   .image {
-      width: 70%;
-      height: auto;
-      margin: auto;
-   }
+
 
    h1 {
       font-size: 2.5rem;
@@ -94,6 +92,17 @@ h2 {
 
    h2 {
       font-size: 1.5rem;
+   }
+
+   .icon {
+      width: 5%;
+      transform: translateY(15%);
+   }
+
+   img {
+      width: 70%;
+      height: auto;
+      margin: auto;
    }
 }
 
@@ -110,18 +119,24 @@ h2 {
       padding: 0 20%;
    }
 
-   .image {
-      width: 70%;
-      height: auto;
-      margin: auto;
-   }
+
 
    h1 {
       font-size: 1.5rem;
    }
 
    h2 {
-      font-size: 0.7rem;
+      font-size: 0.5rem;
+   }
+
+   .icon {
+      transform: translateY(10%);
+   }
+
+   img {
+      width: 50%;
+      height: auto;
+      margin: auto;
    }
 }
 
