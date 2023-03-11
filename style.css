@@ -7,13 +7,22 @@ html {
    max-width: 1920px;
    min-height: 1080px;
    margin: auto;
-   cursor: pointer;
    background: beige;
    text-align: center;
 }
 
 .accordeon {
    padding: 1% 30%;
+}
+
+.wrapper {
+   color: blue;
+   transition: color .2s ease-out;
+}
+
+.wrapper:hover {
+   color: black;
+   cursor: pointer;
 }
 
 .accordeon-item {
@@ -23,7 +32,6 @@ html {
 .accordeon-title {
    display: block;
    cursor: pointer;
-   color: blue;
    transition: color .2s ease-out;
    display: flex;
    flex-direction: row;
@@ -37,20 +45,28 @@ html {
 
 .accordeon-image {
    display: none;
-}
-
-h1 {
-   font-size: 5vh;
-   border-bottom: 2px solid darkgray;
-   padding-bottom: 1%;
-}
-
-h2 {
-   font-size: 3vh;
+   width: 100%;
+   height: 100%;
+   padding: 5%;
 }
 
 img {
-   width: 70%;
+   width: 50%;
+   height: 50%;
+   transition: 0.5s;
+   overflow: hidden;
+}
+
+.accordeon-image img:hover {
+   transition: .5s all;
+   width: 60%;
+   height: 60%;
+   transform: scale(1.1);
+}
+
+.accordeon-input:checked~.accordeon-image {
+   display: block;
+   color: black;
 }
 
 .icon-one,
@@ -60,10 +76,14 @@ img {
 .icon-five {
    width: 5%;
    transform: translateY(60%);
+   transform: rotate(45deg);
+   width: 1em;
+   height: 1em;
+   fill: blue;
 }
 
 .icon-one {
-   margin-left: 56%;
+   margin-left: 53%;
 }
 
 .icon-two {
@@ -82,12 +102,16 @@ img {
    margin-left: 68%;
 }
 
-.accordeon-title:hover {
+h1 {
+   font-size: 5vh;
+   border-bottom: 2px solid darkgray;
+   padding-bottom: 1%;
    color: black;
+   margin-bottom: 0%;
 }
 
-.accordeon-input:checked~.accordeon-image {
-   display: block;
+h2 {
+   font-size: 3vh;
 }
 
 h1,
