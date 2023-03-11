@@ -39,7 +39,6 @@ html {
    display: none;
 }
 
-
 h1 {
    font-size: 5vh;
    border-bottom: 2px solid darkgray;
@@ -54,11 +53,34 @@ img {
    width: 70%;
 }
 
-.icon {
-   width: 10%;
+.icon-one,
+.icon-two,
+.icon-three,
+.icon-four,
+.icon-five {
+   width: 5%;
    transform: translateY(60%);
 }
 
+.icon-one {
+   margin-left: 56%;
+}
+
+.icon-two {
+   margin-left: 66%;
+}
+
+.icon-three {
+   margin-left: 72.5%;
+}
+
+.icon-four {
+   margin-left: 70.5%;
+}
+
+.icon-five {
+   margin-left: 68%;
+}
 
 .accordeon-title:hover {
    color: black;
@@ -81,22 +103,44 @@ h2 {
    }
 
    .accordeon {
-      padding: 0 20%;
+      padding: 2% 20%;
    }
-
-
 
    h1 {
-      font-size: 2.5rem;
-   }
-
-   h2 {
       font-size: 1.5rem;
    }
 
-   .icon {
+   h2 {
+      font-size: 1.1rem;
+   }
+
+   .icon-one,
+   .icon-two,
+   .icon-three,
+   .icon-four,
+   .icon-five {
       width: 5%;
       transform: translateY(15%);
+   }
+
+   .icon-one {
+      margin-left: 30%;
+   }
+
+   .icon-two {
+      margin-left: 48.5%;
+   }
+
+   .icon-three {
+      margin-left: 60%;
+   }
+
+   .icon-four {
+      margin-left: 57%;
+   }
+
+   .icon-five {
+      margin-left: 53%;
    }
 
    img {
@@ -116,10 +160,8 @@ h2 {
    }
 
    .accordeon {
-      padding: 0 20%;
+      padding: 5% 20%;
    }
-
-
 
    h1 {
       font-size: 1.5rem;
@@ -129,8 +171,32 @@ h2 {
       font-size: 0.5rem;
    }
 
-   .icon {
+   .icon-one,
+   .icon-two,
+   .icon-three,
+   .icon-four,
+   .icon-five {
       transform: translateY(10%);
+   }
+
+   .icon-one {
+      margin-left: 20%;
+   }
+
+   .icon-two {
+      margin-left: 43%;
+   }
+
+   .icon-three {
+      margin-left: 56%;
+   }
+
+   .icon-four {
+      margin-left: 52%;
+   }
+
+   .icon-five {
+      margin-left: 47%;
    }
 
    img {
