@@ -18,6 +18,7 @@ html {
 
 .accordeon-item {
    border-bottom: 2px solid darkgray;
+   padding-top: 2%;
 }
 
 .accordeon-title {
@@ -42,6 +43,8 @@ img {
 
 h1 {
    font-size: 5vh;
+   border-bottom: 2px solid darkgray;
+   padding-bottom: 4%;
 }
 
 h2 {
