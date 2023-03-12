@@ -123,6 +123,81 @@ h2 {
    text-align: left;
 }
 
+/*Start screen 1600px*/
+@media screen and (max-width: 1600px) {
+   .icon-one {
+      margin-left: 40%;
+   }
+
+   .icon-two {
+      margin-left: 56%;
+   }
+
+   .icon-three {
+      margin-left: 66%;
+   }
+
+   .icon-four {
+      margin-left: 63%;
+   }
+
+   .icon-five {
+      margin-left: 59%;
+   }
+}
+
+/*End screen 1600px*/
+
+/*Start screen 1500px*/
+@media screen and (max-width: 1500px) {
+   .icon-one {
+      margin-left: 80%;
+   }
+
+   .icon-two {
+      margin-left: 85%;
+   }
+
+   .icon-three {
+      margin-left: 88%;
+   }
+
+   .icon-four {
+      margin-left: 87%;
+   }
+
+   .icon-five {
+      margin-left: 86%;
+   }
+}
+
+/*End screen 1500px*/
+
+/*Start screen 1200px*/
+@media screen and (max-width: 1200px) {
+   .icon-one {
+      margin-left: 75%;
+   }
+
+   .icon-two {
+      margin-left: 81%;
+   }
+
+   .icon-three {
+      margin-left: 84%;
+   }
+
+   .icon-four {
+      margin-left: 83%;
+   }
+
+   .icon-five {
+      margin-left: 82%;
+   }
+}
+
+/*End screen 1200px*/
+
 /*Start screen 820px*/
 @media screen and (max-width: 820px) {
    .container {
@@ -180,7 +255,18 @@ h2 {
 
 /*End screen 820px*/
 
-/*Start screen 320px*/
+/*Start screen 500px*/
+@media screen and (max-width: 500px) {
+   h1 {
+      font-size: 1.3rem;
+   }
+
+   h2 {
+      font-size: 0.7rem;
+   }
+}
+
+/*Start screen 500px*/
 @media screen and (max-width: 320px) {
    .container {
       max-width: 320px;
