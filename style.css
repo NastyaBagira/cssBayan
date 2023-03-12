@@ -53,7 +53,7 @@ html {
 img {
    width: 50%;
    height: 50%;
-   transition: 0.5s;
+   transition: 1s;
    overflow: hidden;
 }
 
@@ -61,12 +61,12 @@ img {
    transition: .5s all;
    width: 60%;
    height: 60%;
-   transform: scale(1.1);
 }
 
 .accordeon-input:checked~.accordeon-image {
    display: block;
    color: black;
+   transform: scale(1.1);
 }
 
 .icon-one,
@@ -80,6 +80,10 @@ img {
    width: 1em;
    height: 1em;
    fill: blue;
+}
+
+.accordeon-input:checked~.icon-one {
+   transform: rotate(45deg);
 }
 
 .icon-one {
