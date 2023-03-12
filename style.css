@@ -148,7 +148,7 @@ h2 {
    .icon-four,
    .icon-five {
       width: 5%;
-      transform: translateY(15%);
+      transform: translateY(15%) rotate(45deg);
    }
 
    .icon-one {
@@ -204,7 +204,8 @@ h2 {
    .icon-three,
    .icon-four,
    .icon-five {
-      transform: translateY(10%);
+      transform: translateY(10%) rotate(45deg);
+      display: none;
    }
 
    .icon-one {
