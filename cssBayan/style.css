@@ -87,23 +87,23 @@ img {
 }
 
 .icon-one {
-   margin-left: 48rem;
+   margin-left: 45rem;
 }
 
 .icon-two {
-   margin-left: 52.5rem;
+   margin-left: 49rem;
 }
 
 .icon-three {
-   margin-left: 55rem;
+   margin-left: 51.5rem;
 }
 
 .icon-four {
-   margin-left: 54rem;
+   margin-left: 50.8rem;
 }
 
 .icon-five {
-   margin-left: 53rem;
+   margin-left: 49.7rem;
 }
 
 h1 {
@@ -116,6 +116,7 @@ h1 {
 
 h2 {
    font-size: 3vh;
+   white-space: nowrap;
 }
 
 h1,
